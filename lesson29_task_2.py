@@ -10,8 +10,6 @@ def register():
         hashed_password = hash(password)
         users[username] = hashed_password
         print("User registered successfully")
-        # print(users)
-
 
 def login():
     username = input("Enter username: ")
